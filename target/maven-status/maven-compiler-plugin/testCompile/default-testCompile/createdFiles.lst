@@ -1,0 +1,15 @@
+CLHM_PageObjects\studentActivityPage.class
+CLHM_PageObjects\AddCourseDetails.class
+CLHM_PageObjects\InstResourceCenter.class
+CLHM_PageObjects\Base.class
+CLHM_PageObjects\DataValues.class
+Runner\TestRunner.class
+CLHM_PageObjects\AssessmentPage.class
+CLHM_PageObjects\studentQA.class
+CLHM_PageObjects\studentPage.class
+CLHM_PageObjects\LPNpage.class
+StepDefination\SmokeStepDefination.class
+CLHM_PageObjects\LoginPage.class
+CLHM_PageObjects\courseInfo.class
+CLHM_PageObjects\studentLPNPage.class
+CLHM_PageObjects\courseDetailsConfirmation.class

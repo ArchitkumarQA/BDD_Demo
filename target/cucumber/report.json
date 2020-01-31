@@ -1,0 +1,398 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-30T07:16:40.285Z",
+        "line": 3,
+        "name": "Verifiy that User is able to login",
+        "description": "",
+        "id": "clhm-smoke-on-mindtap-qa/stage-environment;verifiy-that-user-is-able-to-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11513971600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Instructor-login page",
+            "match": {
+              "location": "SmokeStepDefination.user_is_on_Instructor_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 422407700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid instructor credentials for login",
+            "match": {
+              "location": "SmokeStepDefination.user_enter_valid_instructor_credentials_for_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18769475001,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs-in and moves to the Instructor resource center page",
+            "match": {
+              "location": "SmokeStepDefination.user_logs_in_and_moves_to_the_Instructor_resource_center_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T07:17:10.996Z",
+        "line": 8,
+        "name": "Verify user is able to add textbook",
+        "description": "",
+        "id": "clhm-smoke-on-mindtap-qa/stage-environment;verify-user-is-able-to-add-textbook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16918900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on Instructor resource center page",
+            "match": {
+              "location": "SmokeStepDefination.user_is_on_Instructor_resource_center_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 888977500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is able to select ISBN from different products and user clicks on create course button",
+            "match": {
+              "location": "SmokeStepDefination.user_is_able_to_select_ISBN_from_different_products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6203599,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user moves to courseDetailsConfirmation page",
+            "match": {
+              "location": "SmokeStepDefination.user_moves_to_courseDetailsConfirmation_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T07:17:11.909Z",
+        "line": 13,
+        "name": "Verify if user wants to create a new course or copy an existing course",
+        "description": "",
+        "id": "clhm-smoke-on-mindtap-qa/stage-environment;verify-if-user-wants-to-create-a-new-course-or-copy-an-existing-course",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5241300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on courseDetailsConfirmation page",
+            "match": {
+              "location": "SmokeStepDefination.user_is_on_courseDetailsConfirmation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2825800700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is able to confirm details",
+            "match": {
+              "location": "SmokeStepDefination.user_is_able_to_confirm_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4415500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user moves to Instructor SSO - Create / Edit Course page",
+            "match": {
+              "location": "SmokeStepDefination.user_moves_to_Instructor_SSO_Create_Edit_Course_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T07:17:14.745Z",
+        "line": 18,
+        "name": "Verify if user is able to add course details",
+        "description": "",
+        "id": "clhm-smoke-on-mindtap-qa/stage-environment;verify-if-user-is-able-to-add-course-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3758300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on Instructor SSO - Create / Edit Course page",
+            "match": {
+              "location": "SmokeStepDefination.user_is_on_Instructor_SSO_Create_Edit_Course_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16871143100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is able to add course details",
+            "match": {
+              "location": "SmokeStepDefination.user_is_able_to_add_course_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32329700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "course gets created",
+            "match": {
+              "location": "SmokeStepDefination.course_gets_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T07:17:31.653Z",
+        "line": 23,
+        "name": "Verify the course Details that is created",
+        "description": "",
+        "id": "clhm-smoke-on-mindtap-qa/stage-environment;verify-the-course-details-that-is-created",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4117899,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is on courseinfo page",
+            "match": {
+              "location": "SmokeStepDefination.user_is_on_courseinfo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20123411400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is able to copy the details of the course",
+            "match": {
+              "location": "SmokeStepDefination.user_copies_the_details_of_the_course()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T07:17:51.781Z",
+        "line": 28,
+        "name": "Verify if user is able to move to activity assessment page through LPN",
+        "description": "",
+        "id": "clhm-smoke-on-mindtap-qa/stage-environment;verify-if-user-is-able-to-move-to-activity-assessment-page-through-lpn",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1074365800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user is on LPN page",
+            "match": {
+              "location": "SmokeStepDefination.user_is_on_LPN_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6274729099,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user navigates on the Add/Create",
+            "match": {
+              "location": "SmokeStepDefination.user_navigates_on_the_Add_Create()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49200000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user moves to the activity assessment page",
+            "match": {
+              "location": "SmokeStepDefination.user_moves_to_the_activity_assessment_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T07:17:59.181Z",
+        "line": 33,
+        "name": "Verify if user is able to add and publish activity",
+        "description": "",
+        "id": "clhm-smoke-on-mindtap-qa/stage-environment;verify-if-user-is-able-to-add-and-publish-activity",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17217599,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user is on activity assessment page",
+            "match": {
+              "location": "SmokeStepDefination.user_is_on_activity_assessment_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d79.0.3945.130)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ASDP1757PO02529\u0027, ip: \u002710.161.235.195\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\WINDOWS\\TEMP\\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:53753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: e1b2f22fe61dbecc88ad4ce62d5d663f\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat CLHM_PageObjects.AssessmentPage.select_Activity_and_Publish(AssessmentPage.java:19)\r\n\tat StepDefination.SmokeStepDefination.user_is_able_to_add_activity_from_Simple_assessment(SmokeStepDefination.java:142)\r\n\tat ✽.user is able to add activity from Simple assessment(file:src/test/java/Features/CLHMFeatures.feature:35)\r\n",
+              "duration": 44229579600,
+              "status": "failed"
+            },
+            "line": 35,
+            "name": "user is able to add activity from Simple assessment",
+            "match": {
+              "location": "SmokeStepDefination.user_is_able_to_add_activity_from_Simple_assessment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10200,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "activity gets added into the users course successfully",
+            "match": {
+              "location": "SmokeStepDefination.activity_gets_added_into_the_users_course_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T07:18:43.456Z",
+        "line": 38,
+        "name": "Verify if user is able to change the cookie details",
+        "description": "",
+        "id": "clhm-smoke-on-mindtap-qa/stage-environment;verify-if-user-is-able-to-change-the-cookie-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39,
+            "name": "user is on cookieDetails page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "user updates the cookieDetails",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T07:18:43.458Z",
+        "line": 43,
+        "name": "Verify if student is able to login",
+        "description": "",
+        "id": "clhm-smoke-on-mindtap-qa/stage-environment;verify-if-student-is-able-to-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 44,
+            "name": "user is on student login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45,
+            "name": "user enters valid login credentials",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "user",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CLHM smoke on Mindtap-Qa/Stage environment",
+    "description": "",
+    "id": "clhm-smoke-on-mindtap-qa/stage-environment",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/CLHMFeatures.feature",
+    "tags": []
+  }
+]
